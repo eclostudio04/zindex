@@ -1,0 +1,10 @@
+echo "# zindex" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/eclostudio04/zindex.git
+git push -u origin main
+
+=== Instalasi Laravel ===
+composer global require laravel/installer
